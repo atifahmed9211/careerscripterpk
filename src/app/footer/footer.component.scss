@@ -1,0 +1,17 @@
+.top-footer {
+    background-image: linear-gradient(#68B984, #1E6F5C);
+}
+
+.bottom-footer {
+    background-color: #019267;
+}
+
+a.btn {
+    color: #287962;
+    background-color: #ffffff;
+    border-color: #019267;
+    &:hover{
+        color:white;
+        background-color:#287962;
+    }
+}

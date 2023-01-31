@@ -1,0 +1,46 @@
+hr {
+    border-top: 3px solid;
+    background: none;
+}
+
+.card {
+    border: none;
+    height: 100%;
+
+    .card-header {
+        background-color: #019267;
+        border-radius: 15px 15px 0px 0px;
+
+        h4,
+        h5 {
+            color: white;
+        }
+    }
+
+    .card-body {
+        background-color: #cdeee4;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .crossButton {
+        color: red;
+        cursor: pointer;
+    }
+}
+
+#invoice-layout-wrapper {
+    padding: 100px 50px 50px 50px;
+    .main-content{
+        .page-content{
+            .container-fluid{
+                .row{
+                    .col-lg-12{
+                        .card-body{
+                            border-radius:15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

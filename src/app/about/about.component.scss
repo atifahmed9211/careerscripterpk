@@ -1,0 +1,121 @@
+.row{
+    margin:0;
+}
+.bg-header{
+    padding-top:7rem;
+    padding-bottom: 7rem;
+}
+
+.panel-group {
+    .panel {
+        border-bottom: 1px solid #dadada;
+
+        .panel-heading {
+            h2 {
+                a {
+                    color: #7b7b86;
+                    font-size: 16px;
+                    text-decoration: none;
+
+                    span {
+                        float: right;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+
+        .panel-collapse {
+            .panel-body {
+                color: #aaaab7;
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 300px) {
+    .panel-group {
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner {
+        height: auto;
+    }
+}
+
+.checkout-tabs .nav-pills .nav-link.active {
+    background-color: #019267;
+    color: #fff;
+}
+
+.nav-pills>a {
+    color: var(--bs-gray-700);
+    font-weight: 500;
+}
+
+@media(max-width:770px) {
+    .panel-group .panel .panel-heading h2 a span {
+        margin-top: 0px;
+    }
+}
+
+.card-title {
+    background-color: #019267;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+//to hide and show faq category options for mobile and desktop screen 
+@media(min-width:576px) {
+    .faq_category_options_desktop {
+        display: block;
+    }
+
+    .faq_category_options_mobile {
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+    .faq_category_options_desktop {
+        display: none;
+    }
+
+    .faq_category_options_mobile {
+        display: block;
+    }
+}
+
+.faq_category_options_mobile {
+    padding: 0px 15px;
+    width:100%;
+    .nav-pills{
+        .row{
+            .col-4{
+                .nav-link{
+                    height:100px;
+                    color:#000000;
+                    line-height: 2;
+                    i,p{
+                        font-size: 14px;
+                    }
+                    p{
+                        margin-bottom: 0px;
+                    }
+                }
+                .nav-link.active{
+                    color:#fff !important;
+                }
+            }
+        }
+    }
+}
+a{
+    cursor: pointer;
+}
